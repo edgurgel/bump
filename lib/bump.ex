@@ -13,6 +13,6 @@ defmodule Bump do
 
   """
   def hello do
-    :much_fix
+    :afeature
   end
 end
