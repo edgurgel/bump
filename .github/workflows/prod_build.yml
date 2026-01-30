@@ -15,10 +15,6 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "lts/*"
-
       - id: semantic
         uses: cycjimmy/semantic-release-action@v6
         with:
