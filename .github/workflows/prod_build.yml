@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: "lts/*"
 
-      - name: Install semantic-release plugins
-        run: npm install -g semantic-release @semantic-release/exec @semantic-release/git
-
       - id: semantic
         uses: cycjimmy/semantic-release-action@v6
         with:
