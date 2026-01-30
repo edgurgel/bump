@@ -13,6 +13,6 @@ defmodule Bump do
 
   """
   def hello do
-    :world
+    :wow
   end
 end
